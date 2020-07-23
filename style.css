@@ -1,0 +1,67 @@
+/* flex container */
+
+.group {
+    display: flex; 
+    flex-direction: column;
+}
+
+/* label */
+
+form label {
+    display: block; 
+    margin: 5px 0; 
+    padding: 5px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* text input */ 
+
+form input[type=text] {
+    color: purple; 
+    font-size: 18px; 
+    font-family: 'monospace';
+    margin-left: 5px;
+    width: 250px;
+} 
+
+/* textarea and submit button */ 
+
+form textarea {
+    margin: 0 5px; 
+    color: purple; 
+    font-size: 18px; 
+    font-family: 'monospace';
+    width: 80%;
+    height: 200px;
+}
+
+form button {
+    margin: 5px; 
+    display: block;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+}
+
+.item img {
+    width: 100%; 
+    margin: 5px; 
+}
+
+/* media query */
+
+@media all and (min-width: 600px) {
+    .group {
+        flex-direction: row; 
+    }
+
+    .item {
+        flex: 1;
+    }
+}
+
+/* form input[type="password"] {
+    font-size: 18px; 
+    margin-left: 5px;
+    width: 250px; 
+} */
