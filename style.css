@@ -1,3 +1,7 @@
+body {
+    margin: 0 10px; 
+}
+
 /* flex container */
 
 .group {
@@ -10,7 +14,7 @@
 form label {
     display: block; 
     margin: 5px 0; 
-    padding: 5px; 
+    /* padding: 5px; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -20,14 +24,14 @@ form input[type=text] {
     color: purple; 
     font-size: 18px; 
     font-family: 'monospace';
-    margin-left: 5px;
+    /* margin-left: 5px; */
     width: 250px;
 } 
 
 /* textarea and submit button */ 
 
 form textarea {
-    margin: 0 5px; 
+    /* margin: 0 5px; */
     color: purple; 
     font-size: 18px; 
     font-family: 'monospace';
@@ -36,7 +40,7 @@ form textarea {
 }
 
 form button {
-    margin: 5px; 
+    /* margin: 5px; */
     display: block;
     color: white;
     background-color: black;
@@ -45,7 +49,7 @@ form button {
 
 .item img {
     width: 100%; 
-    margin: 5px; 
+    margin: 5px 0; 
 }
 
 /* media query */
